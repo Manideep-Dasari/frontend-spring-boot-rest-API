@@ -64,4 +64,20 @@ Task_8/
    2. Make sure the backend is running at **localhost:8080**
    3. Add a task → it appears immediately in the task list
    4. Refresh page → tasks persist while backend is running
-      
+
+---
+
+## 💻 Usage
+1. Enter a task in the input field
+2. Click **Add Task**
+3. Task will appear in the list below
+4.Tasks are fetched from the backend dynamically
+
+---
+
+## Key Concepts
+- **Fetch API** for GET & POST requests
+- **JSON handling** between frontend and backend
+- **DOM manipulation** to dynamically update UI
+- **CORS** handling for frontend-backend integration
+- **Promises / async-await** for asynchronous requests
