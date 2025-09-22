@@ -44,6 +44,24 @@ Task_8/
 ---
 
 ## 🚀 Setup Instructions
-# 1. Backend (Spring Boot)
-  1. Open `java/bhub/Task8/Task_8/` in Eclipse or VSCode
-  2. Build and run:
+## 1. Backend (Spring Boot)
+   1. Open `java/bhub/Task8/Task_8/` in Eclipse or VSCode
+   2. Build and run:
+   ```bash
+   mvn spring-boot:run
+   ```
+   3. API runs at: `http://localhost:8080/tasks`
+   4. Test endpoints using Postman:
+      - `GET /tasks` → returns all tasks
+      - `POST /tasks` → add a task, body example:
+      ```json
+      {
+      "name": "Learn Java"
+      }
+      ```
+## 2. Frontend (HTML/CSS/JS)
+   1. Open `frontend/index.html` directly in a browser or use Live Server        (VSCode extension)
+   2. Make sure the backend is running at **localhost:8080**
+   3. Add a task → it appears immediately in the task list
+   4. Refresh page → tasks persist while backend is running
+      
