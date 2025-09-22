@@ -1,4 +1,4 @@
-# 🌐 Task 8: Frontend Integration with Spring Boot REST API
+# 🌐 Frontend Integration with Spring Boot REST API
 
 ## 📝 Description
 This project demonstrates a simple **task manager** web application where you can:
