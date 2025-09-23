@@ -11,7 +11,7 @@ It connects a Spring Boot REST API backend with a HTML/CSS/JavaScript frontend u
 
 ## 🛠 Tech Stack
 - **Frontend:** HTML, CSS, JavaScript (Fetch API, DOM manipulation)
--**Backend:** Spring Boot REST API (Java)
+- **Backend:** Spring Boot REST API (Java)
 - **Tools:** VSCode / IntelliJ / Maven / Postman
 - Live Server for frontend testing
 
